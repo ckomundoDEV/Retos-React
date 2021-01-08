@@ -32,7 +32,8 @@ header {
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
     width: 1000px;
 }
-.card > p {
+
+.card > h3 {
     display: flex;
     border-bottom: 1px solid #eff2f5;
     padding: 11%;

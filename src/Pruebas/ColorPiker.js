@@ -18,8 +18,8 @@ function ColorPiker() {
 
             <div className="body">
                 <div className="card">
-                    <p> Crea una página con React.js que muestre 5 cuadros de diferentes colores los cuales al cliquearlos cambien el color de fondo de la página. </p>
-
+                    
+                    <h3> Crea una página con React.js que muestre 5 cuadros de diferentes colores los cuales al cliquearlos cambien el color de fondo de la página.</h3>
                     <div className="colors">
                         <button onClick={handlClick} style={{backgroundColor:"blue", font:"none"}} value ="blue" className="color"></button>
                         <button onClick={handlClick} style={{backgroundColor:"red", font:"none"}} value ="red" className="color"></button>

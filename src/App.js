@@ -1,13 +1,15 @@
 import './App.css';
 
 
-import ColorPiker from "./ColorPiker";
+import ColorPiker from "./Pruebas/ColorPiker";
+import Conversión from "./Pruebas/Conversión.js";
 
 function App() {
 
   return (
     <div className="App">
-      <ColorPiker />
+     
+      <Conversión />
     </div>
   );
 }
