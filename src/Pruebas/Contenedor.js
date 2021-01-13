@@ -9,6 +9,7 @@ import {
 
 import ColorPiker from "./ColorPiker";
 import Conversión from "./Conversión.js";
+import PrimeDetector from "./PrimeDetector.js";
 
 
 function Contenedor() {
@@ -25,6 +26,10 @@ function Contenedor() {
 
                 <Route path="/Conversión">
                     <Conversión />
+                </Route>
+
+                <Route path="/PrimeDetector">
+                    <PrimeDetector />
                 </Route>
             </Switch>
         </div>
