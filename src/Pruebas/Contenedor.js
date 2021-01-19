@@ -10,6 +10,7 @@ import {
 import ColorPiker from "./ColorPiker";
 import Conversión from "./Conversión.js";
 import PrimeDetector from "./PrimeDetector.js";
+import Gpt3 from "./Gpt_3.js" 
 
 
 function Contenedor() {
@@ -30,6 +31,10 @@ function Contenedor() {
 
                 <Route path="/PrimeDetector">
                     <PrimeDetector />
+                </Route>
+
+                <Route path="/Gpt_3">
+                    <Gpt3 />
                 </Route>
             </Switch>
         </div>

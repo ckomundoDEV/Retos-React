@@ -39,7 +39,7 @@ function Nav() {
             
 
             <List component="nav">
-                {["ColorPiker", 'Conversión','PrimeDetector'].map((text )=> (
+                {["ColorPiker", 'Conversión','PrimeDetector', 'Gpt_3'].map((text )=> (
 
                     <Link to={text}>                     
                         <ListItem button>
